@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+        <item
+            android:id="@+id/bottomHome"
+            android:title="Home"
+            android:enabled="true"
+            android:icon="@drawable/ic_home"
+            app:showAsAction="ifRoom"
+            />
+        <item
+            android:id="@+id/bottomUpload"
+            android:enabled="true"
+            android:title="Upload"
+            android:icon="@drawable/ic_upload"
+            app:showAsAction="ifRoom"
+            />
+        <item
+            android:id="@+id/bottomProfile"
+            android:enabled="true"
+            android:title="Profile"
+            android:icon="@drawable/ic_profile"
+            app:showAsAction="ifRoom"
+            />
+
+        <item
+            android:id="@+id/bottomSetting"
+            android:enabled="true"
+            android:title="Setting"
+            app:showAsAction="ifRoom"
+            android:icon="@drawable/ic_setting"
+            />
+
+
+
+</menu>

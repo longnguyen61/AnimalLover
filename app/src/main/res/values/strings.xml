@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">FirebaseDemo</string>
+    <array name="type">
+        <item>Emergency</item>
+        <item>Lost</item>
+
+    </array>
+</resources>
